@@ -1,0 +1,165 @@
+#============================================================
+# Clock
+#============================================================
+set_location_assignment PIN_24 -to CLK_48M
+
+#============================================================
+# LEDs
+#============================================================
+set_location_assignment PIN_3 -to LED[0]
+set_location_assignment PIN_2 -to LED[1]
+set_location_assignment PIN_1 -to LED[2]
+set_location_assignment PIN_141 -to LED[3]
+
+#============================================================
+# PS/2
+#============================================================
+set_location_assignment PIN_98 -to PS2_DATA
+set_location_assignment PIN_99 -to PS2_CLK
+
+#============================================================
+# Buzzer
+#============================================================
+set_location_assignment PIN_85 -to BUZZER
+
+#============================================================
+# Switches
+#============================================================
+set_location_assignment PIN_88 -to SW[0]
+set_location_assignment PIN_91 -to SW[1]
+set_location_assignment PIN_90 -to SW[2]
+set_location_assignment PIN_89 -to SW[3]
+
+#============================================================
+# 4x7 Segment Display
+#============================================================
+set_location_assignment PIN_143 -to SEG[0]
+set_location_assignment PIN_144 -to SEG[1]
+set_location_assignment PIN_1 -to SEG[2]
+set_location_assignment PIN_141 -to SEG[3]
+set_location_assignment PIN_142 -to SEG[4]
+set_location_assignment PIN_138 -to SEG[5]
+set_location_assignment PIN_2 -to SEG[6]
+
+set_location_assignment PIN_133 -to SEG_EN[3]
+set_location_assignment PIN_136 -to SEG_EN[2]
+set_location_assignment PIN_135 -to SEG_EN[1]
+set_location_assignment PIN_137 -to SEG_EN[0]
+
+set_location_assignment PIN_3 -to SEG_DP
+
+#============================================================
+# RS-232 UART
+#============================================================
+set_location_assignment PIN_86 -to UART_RX
+set_location_assignment PIN_87 -to UART_TX
+
+#============================================================
+# Infrared Receiver
+#============================================================
+set_location_assignment PIN_132 -to IR_DATA
+
+#============================================================
+# VGA Connector - RGB 5-6-5
+#============================================================
+set_location_assignment PIN_100 -to H_SYNC
+set_location_assignment PIN_101 -to V_SYNC
+
+set_location_assignment PIN_120 -to V_R[0]
+set_location_assignment PIN_121 -to V_R[1]
+set_location_assignment PIN_124 -to V_R[2]
+set_location_assignment PIN_125 -to V_R[3]
+set_location_assignment PIN_126 -to V_R[4]
+
+set_location_assignment PIN_111 -to V_G[0]
+set_location_assignment PIN_112 -to V_G[1]
+set_location_assignment PIN_113 -to V_G[2]
+set_location_assignment PIN_114 -to V_G[3]
+set_location_assignment PIN_115 -to V_G[4]
+set_location_assignment PIN_119 -to V_G[5]
+
+set_location_assignment PIN_103 -to V_B[0]
+set_location_assignment PIN_104 -to V_B[1]
+set_location_assignment PIN_105 -to V_B[2]
+set_location_assignment PIN_106 -to V_B[3]
+set_location_assignment PIN_110 -to V_B[4]
+
+#============================================================
+# Analog-to-Digital (A/D) Converter
+#============================================================
+set_location_assignment PIN_127 -to AD_CLK
+set_location_assignment PIN_128 -to AD_DATA
+set_location_assignment PIN_129 -to AD_CSN
+
+
+#============================================================
+# 128Mbit SPI Flash
+#============================================================
+set_location_assignment PIN_7 -to FLASH_DATA_IN
+set_location_assignment PIN_10 -to FLASH_CLK
+set_location_assignment PIN_11 -to FLASH_CS
+set_location_assignment PIN_23 -to FLASH_DATA_OUT
+
+#============================================================
+# 4M FPGA Flash - Used for storing programs permanently on FPGA
+#============================================================
+set_location_assignment PIN_12 -to EP_DCLK
+set_location_assignment PIN_6 -to EPCS_ASDI
+set_location_assignment PIN_8 -to EPCS_NCS
+set_location_assignment PIN_13 -to EPCS_DATA
+
+#============================================================
+# SDRAM
+#============================================================
+set_location_assignment PIN_77 -to SDRAM_A0
+set_location_assignment PIN_80 -to SDRAM_A1
+set_location_assignment PIN_83 -to SDRAM_A2
+set_location_assignment PIN_84 -to SDRAM_A3
+set_location_assignment PIN_72 -to SDRAM_A4
+set_location_assignment PIN_71 -to SDRAM_A5
+set_location_assignment PIN_70 -to SDRAM_A6
+set_location_assignment PIN_69 -to SDRAM_A7
+set_location_assignment PIN_68 -to SDRAM_A8
+set_location_assignment PIN_67 -to SDRAM_A9
+set_location_assignment PIN_76 -to SDRAM_A10
+set_location_assignment PIN_66 -to SDRAM_A11
+set_location_assignment PIN_65 -to SDRAM_A12
+
+set_location_assignment PIN_73 -to SDRAM_BA0
+set_location_assignment PIN_75 -to SDRAM_BA1
+
+set_location_assignment PIN_30 -to SDRAM_DQ0
+set_location_assignment PIN_28 -to SDRAM_DQ1
+set_location_assignment PIN_32 -to SDRAM_DQ2
+set_location_assignment PIN_31 -to SDRAM_DQ3
+set_location_assignment PIN_33 -to SDRAM_DQ4
+set_location_assignment PIN_34 -to SDRAM_DQ5
+set_location_assignment PIN_38 -to SDRAM_DQ6
+set_location_assignment PIN_39 -to SDRAM_DQ7
+set_location_assignment PIN_58 -to SDRAM_DQ8
+set_location_assignment PIN_55 -to SDRAM_DQ9
+set_location_assignment PIN_54 -to SDRAM_DQ10
+set_location_assignment PIN_53 -to SDRAM_DQ11
+set_location_assignment PIN_52 -to SDRAM_DQ12
+set_location_assignment PIN_51 -to SDRAM_DQ13
+set_location_assignment PIN_50 -to SDRAM_DQ14
+set_location_assignment PIN_49 -to SDRAM_DQ15
+
+set_location_assignment PIN_74 -to SDRAM_CS_N
+set_location_assignment PIN_43 -to SDRAM_WE_N
+set_location_assignment PIN_44 -to SDRAM_CAS_N
+set_location_assignment PIN_46 -to SDRAM_RAS_N
+
+set_location_assignment PIN_42 -to SDRAM_DQML
+set_location_assignment PIN_59 -to SDRAM_DQMH
+
+set_location_assignment PIN_60 -to SDRAM_CLK
+set_location_assignment PIN_64 -to SDRAM_CKE
+
+#============================================================
+# JTAG Interface
+#============================================================
+set_location_assignment PIN_15 -to F_TDI
+set_location_assignment PIN_20 -to F_TDO
+set_location_assignment PIN_16 -to F_TCK
+set_location_assignment PIN_18 -to F_TMS
